@@ -1,16 +1,11 @@
-# This is a sample Python script.
+#Тестовый проект к 24 модулю SkillFactory курса QAP
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#В директории /tests располагается файл с тестами
 
+#В директории /tests/images лежат картинки для теста добавления питомца и теста добавления картинки
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#В корневой директории лежит файл .env, который содержит информацию логине и пароле
 
+#В корневой директории лежит файл api.py, который является библиотекой к REST API сервису веб приложения Pet Friends
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#Тесты проверяют работу методов используя API библиотеку
